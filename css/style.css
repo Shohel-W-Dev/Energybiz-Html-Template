@@ -1,0 +1,620 @@
+/*
+	   Master Stylesheet
+	=======================
+	Template Name: EnergyBiz || HTML Template;
+	Author: Shohel Rana;
+	Description: Minimal Blog Template;
+	Version: 1.0.0;
+	Tag: blog, two column;
+
+*/
+
+/* 
+		Table Of Content
+	========================
+	1.Typography
+	2. Header
+	3. Banner
+	4. Trusted Partner
+	5. Offer
+	6. Services
+	7. Facts
+	8. Offer
+	9. Sponsor
+	10.Footer
+*/
+
+
+
+
+/* 	====================
+		Typography
+	====================
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap');
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 35px;
+	color: #151163;
+}
+
+p{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 25px;
+	color: #1c1a76;
+}
+a{
+	font-family: 'Poppins', sans-serif;
+	text-decoration: none;
+	color: #2d3950;
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+}
+
+/*============================
+	Header Style Start Here
+=============================*/
+header{
+	padding: 20px 0px;
+	background: #ffffff;
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.menu nav ul li{
+	display: inline-block;
+}
+.menu nav ul li a{
+	padding: 0px 35px;
+	padding-right: 0;
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #2d3950;
+	font-weight: 500;
+}
+.menu nav ul li a:hover{
+	color: #151163;
+	transition: 0.3s all ease-in-out;
+}
+
+/*============================
+	Banner Style Start Here
+=============================*/
+#banner{
+	background-image: url(../img/banner.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 850px;
+	display: flex;
+}
+.banner{
+	display: flex;
+	justify-content: space-between;
+}
+.banner-title{
+	width: 60%;
+}
+.banner-img{
+	width: 40%;
+}
+.banner .banner-title{
+	padding-top: 120px;
+}
+.banner .banner-img{
+	padding: 80px 0px 0px;
+}
+.banner-title h1{
+	font-size: 65px;
+	line-height: 70px;
+	font-weight: 700;
+	color: #ffffff;
+}
+.banner .banner-title p{
+	font-size: 18px;
+	color: #ffffff;
+}
+.banner-img img{
+	width: 100%;
+}
+.form-search{
+	padding-top: 30px;
+}
+.form-search .form-input{
+	width: 400px;
+	height: 40px;
+	font-size: 15px;
+	color: #fff;
+	font-weight: 600;
+	border-radius: 40px;
+	border: none;
+	background: #100d55;
+	padding-left: 20px;
+	outline: none;
+}
+.form-search .btn-touch{
+	width: 150px;
+	height: 40px;
+	font-size: 15px;
+	color: #201b85;
+	font-weight: 600;
+	border-radius: 40px;
+	border: none;
+	background: #ffffff;
+	padding-left: 20px;
+	margin-left: -176px;
+	outline: none;
+}
+
+.banner-group{
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	padding: 80px 0px;
+}
+.banner-item{
+	width: 22%;
+}
+.banner-item img{
+	width: 100%;
+	border-radius: 10px;
+}
+
+
+/*============================
+	Form Style Start Here
+=============================*/
+#form{
+	padding: 50px 0px 10px;
+	background: #ffffff;
+}
+.form-heading{
+	width: 50%;
+}
+.form-box{
+	width: 50%;
+	margin-top: -125px;
+	box-shadow: 10px 10px 30px grey;
+}
+.form{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.form .form-heading h2{
+	font-size: 40px;
+	line-height: 45px;
+	font-weight: 600;
+}
+.form .form-heading p{
+	font-size: 18px;
+}
+.preview{
+	display: flex;
+	align-items: center;
+}
+.video-icon{
+	width: 12%;
+}
+.video-title{
+	width: 88%;
+}
+.preview .video-icon i{
+	background: #151163;
+	text-align: center;
+	color: #ffffff;
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	border-radius: 45px;
+	font-size: 20px;
+	margin: 40px 0px;
+}
+.preview .video-title p{
+	font-size: 16px;
+	line-height: 22px;
+}
+.container-form{
+	width: 80%;
+	margin: 0 auto;
+}
+.form-box{
+	width: 500px;
+	height: 790px;
+	background: #151163;
+	border-radius: 30px;
+}
+.form-title{
+	background: #fff;
+	padding: 50px 0px;
+	border-radius: 30px;
+}
+.form-box .form-title h3{
+	text-align: center;
+	font-weight: 600;
+	margin-bottom: 25px;
+	font-size: 25px;
+}
+.form-box .form-title p{
+	font-size: 16px;
+	text-align: center;
+}
+.form-body{
+	padding-top: 40px;
+}
+.form-group{
+	margin: 25px 0;
+}
+
+.form-control{
+	width: 93%;
+	height: 50px;
+	font-size: 15px;
+	color: #151163;
+	font-weight: 700;
+	border-radius: 40px;
+	border: none;
+	background: #fff;
+	padding-left: 20px;
+	outline: none;
+}
+.submit-btn{
+	width: 98%;
+	height: 65px;
+	font-size: 15px;
+	color: #151163;
+	font-weight: 600;
+	border-radius: 40px;
+	border: none;
+	background: #fff;
+	margin: 30px 0px;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: 0.3s all ease-in-out;
+	outline: none;
+}
+.submit-btn:hover{
+	background: #f7f7f7;
+}
+
+/*============================
+	Trust Style Start Here
+=============================*/
+#trust-partner{
+	padding: 150px 0px;
+}
+.trust-heading h2{
+	font-size: 40px;
+	font-weight: 700;
+	text-align: center;
+	padding-bottom: 50px;
+}
+.trust-group{
+	display: flex;
+	justify-content: space-between;
+	width: 85%;
+	margin: 0 auto;
+}
+.trust-item{
+	width: 25%;
+}
+.trust-item img{
+	width: 100%;
+	border-radius: 10px;
+}
+/*============================
+   Cashback Style Start Here
+=============================*/
+#cashback{
+	padding: 50px 0px;
+	background: #1c1a76;
+}
+.cashback{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.cashback-title{
+	width: 50%;
+}
+.cashback-image{
+	width: 50%;
+}
+.cashback-image img{
+	width: 100%;
+}
+.cashback-title h2{
+	font-size: 60px;
+	line-height: 65px;
+	font-weight: 700;
+	color: #fff;
+	text-align: center;
+}
+.cashback-title span{
+	color: #ff0000;
+}
+.cashback-group{
+	display: flex;
+	justify-content: space-between;
+	width: 85%;
+	margin: 0 auto;
+	padding: 100px 0px;
+}
+.cashback-item{
+	width: 22%;
+}
+.cashback-item img{
+	width: 100%;
+	border-radius: 10px;
+}
+
+/*============================
+	Services Style Start Here
+=============================*/
+#services{
+	padding: 150px 0px;
+}
+.service-section{
+	display: flex;
+
+}
+.service-heading{
+	width: 50%;
+	margin-left: 80px;
+}
+.service-heading h2{
+	font-size: 40px;
+	line-height: 45px;
+	font-weight: 600;
+}
+.service-heading p{
+	font-size: 18px;
+}
+.icon{
+	display: flex;
+}
+.icon-left{
+	width: 50%;
+}
+.icon-left .icon-one img{
+	background: #cae8ff;
+	padding: 17px;
+	border-radius: 15px;
+	margin: 45px 0px 15px;
+}
+.icon-left .icon-three img{
+	background: #b7baff;
+	padding: 17px;
+	border-radius: 15px;
+	margin: 45px 0px 15px;
+}
+.icon-left .icon-five img{
+	background: #ffcf9b;
+	padding: 10px 15px;
+	border-radius: 15px;
+	margin: 45px 0px 15px;
+}
+.icon-left h4{
+	font-size: 30px;
+	line-height: 30px;
+	font-weight: 600;
+}
+.icon-left p{
+	font-size: 16px;
+	line-height: 20px;
+}
+.icon-right{
+	width: 50%;
+}
+.icon-right .icon-two img{
+	background: #5dffb5;
+	padding: 20px 10px;
+	border-radius: 15px;
+	margin: 45px 0px 15px;
+}
+.icon-right .icon-four img{
+	background: #ff91dc;
+	padding: 9px 13px;
+	border-radius: 15px;
+	margin: 45px 0px 15px;
+}
+.icon-right h4{
+	font-size: 30px;
+	line-height: 30px;
+	font-weight: 600;
+}
+.icon-right p{
+	font-size: 16px;
+}
+.brand-logo{
+	width: 50%;
+	background: #f6fbff;
+	padding: 75px 20px;
+}
+.brand-group{
+	display: flex;
+	justify-content: space-between;
+	width: 95%;
+	margin: 0 auto;
+}
+.brand-item{
+	width: 32%;
+}
+.brand-item img{
+	width: 100%;
+	border-radius: 5px;
+	padding: 6px;
+}
+
+/*============================
+	Fact Style Start Here
+=============================*/
+#fact{
+	padding: 70px 0px 150px;
+}
+.fact-heading h2{
+	font-size: 40px;
+	line-height: 50px;
+	color: #151163;
+	font-weight: 700;
+}
+.fact-heading p{
+	font-size: 18px;
+	color: #151163;
+}
+.cheakout{
+	display: flex;
+	align-items: center;
+}
+.cheakout-left{
+	width: 50%;
+}
+.cheakout-left img{
+	width: 100%;
+}
+.cheakout-right{
+	width: 50%;
+	margin: 0 auto;
+}
+.cheakout-group{
+	display: flex;
+	justify-content: space-between;
+
+}
+.cheakout-item{
+	width: 50%;
+	text-align: center;
+	float: left;
+}
+.cheakout-content{
+	border: 1px solid #f7f7f7;
+	height: 220px;
+	width: 220px;
+	line-height: 220px;
+	border-radius: 20px;
+	background-color: #fefefe;
+	transition: 0.3s all ease-in-out;
+	margin: 30px 0px 20px 40px;
+}
+.cheakout-content:hover{
+	box-shadow: 10px 10px 30px grey;
+}
+.cheakout-content h4{
+	margin-top: 65px;
+	font-size: 40px;
+	font-weight: 700;
+}
+.cheakout-content p{
+	font-size: 18px;
+	font-weight: 500;
+}
+/*============================
+	Offer Style Start Here
+=============================*/
+#offer{
+	background-color: #fcfcfc;
+	padding: 120px 0px;
+}
+.offer-content h2{
+	text-align: center;
+	font-size: 40px;
+	line-height: 50px;
+	font-weight: 700;
+	color: #201b85;
+}
+.offer-content span{
+	color: #ff0000;
+}
+.offer-content p{
+	font-size: 18px;
+	color: #151163;
+	text-align: center;
+	padding: 50px 0px;
+}
+.offer-content img{
+	display: block;
+	margin: 0 auto;
+}
+.offer-content button{
+	font-size: 18px;
+	font-weight: 400;
+	text-transform: capitalize;
+	padding: 20px 50px;
+	background-color: #1c1a76;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	display: block;
+	margin: 0 auto;
+	margin-top: 60px;
+	outline: none;
+}
+
+/*============================
+	Sponsor Style Start Here
+=============================*/
+#sponsor{
+	padding: 170px 0px;
+}
+.sponsor-title p{
+	text-align: center;
+	margin-bottom: 40px;
+	color: #151163;
+}
+.sponsor-group{
+	display: flex;
+	justify-content: space-between;
+}
+.sponsor-item{
+	width: 15%;
+}
+.sponsor-item img{
+	width: 100%;
+}
+
+/*============================
+	Footer Style Start Here
+=============================*/
+#footer-section{
+	background: #1c1a76;
+	height: 400px;
+}
+.footer-container{
+	display: flex;
+	justify-content: space-between;
+	padding: 150px 70px;
+}
+.footer-item{
+	width: 30%;
+	text-align: center;
+	margin: 0 auto;
+}
+.footer-content h4{
+	font-size: 25px;
+	color: #fff;
+}
+.footer-content p{
+	font-size: 18px;
+	color: #fff;
+}
+.footer-legal p{
+	color: #1c1a76;
+	text-align: center;
+	font-size: 16px;
+	margin-bottom: 30px;
+}
